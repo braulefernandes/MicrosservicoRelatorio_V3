@@ -29,3 +29,4 @@ class ItemVenda(models.Model):
 
     def __str__(self):
         return f'Produto {self.produto_id} na Venda {self.venda.id_venda}'
+    

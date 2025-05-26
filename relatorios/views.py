@@ -6,7 +6,6 @@ from .models import RelatorioEstoque, RelatorioVenda, ItemVenda
 def home(request):
     return render(request, 'home.html')
 
-
 def obter_estoque(request):
     url_estoque = "https://estoquepadaria-production-bf51.up.railway.app/estoque/todos"
     try:
